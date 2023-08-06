@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set a global font family */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    font-size: 24px;
+    margin: 20px, 0, 0, 20px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Active link style */
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* On hover link style */
+.nav-link:hover {
+    color: #f0f0f0;
+}
+
+/* Main Content Area */
+.content {
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Media Query for responsive layout */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar h1 {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

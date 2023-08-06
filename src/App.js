@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+// import CustomHook from './Custom_hook/CustomHook';
+// import UserForm from './Form/form';
+// import API from './FetchData/API';
+import MainRoute from './Router_Dom/MainRoute';
+// import Main from './ToDoList/Mainfile';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainRoute />
   );
 }
 

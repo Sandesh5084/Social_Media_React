@@ -1,0 +1,85 @@
+/* Styling for the Main container */
+div {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Styling for the input and buttons */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for each task item */
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.task-item.completed {
+    background-color: #b3ffb3;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styling for the 'X' button */
+.delete-button {
+    background-color: #ff3333;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+/* Styling for the 'Completed' button */
+.complete-button {
+    background-color: #00cc44;
+    color: white;
+}
+
+.complete-button:hover {
+    background-color: #009933;
+}
+
+/* Styling for the 'Add' button */
+.add-button {
+    background-color: #20c997;
+    color: white;
+}
+
+.add-button:hover {
+    background-color: #17a2b8;
+}
